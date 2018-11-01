@@ -102,12 +102,13 @@ String getPipelineBranch() {
 }
 
 String checkout = getCheckout(scm)
-
 String getCheckout (scmObj)
 {
 println "Checking out repository"
 node {
 checkout scmObj
 }
-return
+return this
 }
+
+
