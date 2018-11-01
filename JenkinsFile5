@@ -107,6 +107,8 @@ String getCheckout (scmObj)
 println "Checking out repository"
 node {
 checkout scmObj
+mvn install
+java -jar abc.jar file.xls
 }
 return this
 }
