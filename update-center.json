@@ -1,0 +1,56 @@
+updateCenter.post(
+{
+  "id": "default",
+  "plugins":   {
+    "credentials":     {
+      "buildDate": "Jul 20, 2018",
+      "dependencies": [      {
+        "name": "structs",
+        "optional": false,
+        "version": "1.7"
+      }],
+      "developers": [      {
+        "developerId": "stephenconnolly",
+        "name": "Stephen Connolly"
+      }],
+      "excerpt": "This plugin allows you to store credentials in Jenkins.",
+      "gav": "org.jenkins-ci.plugins:credentials:2.1.18",
+      "labels": [],
+      "name": "credentials",
+      "releaseTimestamp": "2018-07-20T18:35:26.00Z",
+      "requiredCore": "1.625.3",
+      "scm": "github.com",
+      "sha1": "5IFfWXhpaOi0KRGtbbFsn526h2Y=",
+      "title": "Credentials Plugin",
+      "url": "https://hlblartfp001.standard.com/artifactory/jenkins-plugins/credentials/2.1.18/credentials.hpi",
+      "version": "2.1.18",
+      "wiki": "https://wiki.jenkins.io/display/JENKINS/Credentials+Plugin"
+    },
+    "structs":     {
+      "buildDate": "Oct 05, 2018",
+      "dependencies": [],
+      "developers": [{"developerId": "jglick"}],
+      "excerpt": "Library plugin for DSL plugins that need names for Jenkins objects.",
+      "gav": "org.jenkins-ci.plugins:structs:1.17",
+      "labels": [],
+      "name": "structs",
+      "releaseTimestamp": "2018-10-05T13:19:40.00Z",
+      "requiredCore": "2.60.3",
+      "scm": "github.com",
+      "sha1": "gvETZpDtT34pULiXRx9L1DSS88Q=",
+      "title": "Structs Plugin",
+      "url": "https://hlblartfp001.standard.com/artifactory/jenkins-plugins/structs/1.17/structs.hpi",
+      "version": "1.17",
+      "wiki": "https://wiki.jenkins-ci.org/display/JENKINS/Structs+plugin"
+    }
+  },
+  "signature":   {
+    "certificates": ["MIIEyjCCA7KgAwIBAgITJAAG/dFR//zRicuMwgAAAAb90TANBgkqhkiG9w0BAQsFADBnMRMwEQYKCZImiZPyLGQBGRYDY29tMRgwFgYKCZImiZPyLGQBGRYIc3RhbmRhcmQxFDASBgoJkiaJk/IsZAEZFgRjb3JwMSAwHgYDVQQDExdTSUMgSW50ZXJuYWwgSXNzdWluZyBDQTAeFw0xODEyMjcyMDMzMDdaFw0yMDEyMjYyMDMzMDdaMIGHMQswCQYDVQQGEwJVUzEPMA0GA1UECBMGT3JlZ29uMREwDwYDVQQHEwhQb3J0bGFuZDEjMCEGA1UEChMaU3RhbmRhcmQgSW5zdXJhbmNlIENvbXBhbnkxCzAJBgNVBAsTAklUMSIwIAYDVQQDExlobGJsYXJ0ZnAwMDEuc3RhbmRhcmQuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6l9ZoeUWjgSXQt5dSaBNnKsE362xd3im21PGLeuedfGZePxcjwPgw99UTWJt5YbevFjBCMXagBcWGbWyKCtbpS1p995+r0VNzRxZIyMAB2mhH1ZfvUCgMVHn+WFmEfQe2oN7ErkMvEVRdhSxaQuBgq2I5tVW3ZjVAIWZ+EgBpdIiTo2vGLX3xB7su5wJbfPGfJ4GeYnneqDbzElwNy5LOCMfBww+94bv2YfJq81fVJyDrg5qE86yPbJTm8lvqMogHYLjriy6b1UzI8cL6v6aaAVacIWqYOz3A3PJYUpWpshsQ8rnw7dKyaucderm4wHSE5sTcOccE7vKtJOwU83xwQIDAQABo4IBTDCCAUgwHQYDVR0OBBYEFL291NfOIceO44aFpa9U88MNAUYpMB8GA1UdIwQYMBaAFFqYJvUsVK7t6ikGdTOUxSjFKz+HMGMGA1UdHwRcMFowWKBWoFSGUmh0dHA6Ly9ITEJXQ0VSVFAwMDIuY29ycC5zdGFuZGFyZC5jb20vQ2VydEVucm9sbC9TSUMlMjBJbnRlcm5hbCUyMElzc3VpbmclMjBDQS5jcmwwCwYDVR0PBAQDAgWgMDwGCSsGAQQBgjcVBwQvMC0GJSsGAQQBgjcVCIPuh16E3JtFg5WdN4K99y+B0c5YKoG/3CbqnT0CAWQCARMwEwYDVR0lBAwwCgYIKwYBBQUHAwEwGwYJKwYBBAGCNxUKBA4wDDAKBggrBgEFBQcDATAkBgNVHREEHTAbghlobGJsYXJ0ZnAwMDEuc3RhbmRhcmQuY29tMA0GCSqGSIb3DQEBCwUAA4IBAQBoIC+pLsqjYezamUvfvV98Wr4AoqHK+s+r/FndfA7n81v+t7/MEtlY6X0GWr+KOJSG+WZkIoTTZngLxnFwwZKfPMWV4q+xeVXQskJWWFSdthwd/JHJKg4+eJ+sl6aLcSjY0vQGwV7Z1AZm9EBxGp9+hK5gYVdwZVMIVn6ZoNOHHcKkwY5jDhq+unf4XzR5CiJCuH10nmTyzYnEIVh7N26xMazsbJl8S7DSiSz3YLOKDHCioUDvL1ucpWglyZ2jM/gRFZ1ToQ2cBSZcaQPLAnsr2uMOzNBlV5sxBFDcjdXns6cZeJ/vRJFpRSLktNiuKSDX0I3PWhz9+l2M0XVhFcSC"],
+    "correct_digest": "oTwMF+PqYAtnLePc3hlWpQbftiU=",
+    "correct_signature": "3T/KRef12qDO2tQ3MFRG1IK/blQoSjIKgdiae0WPRFIdAaMzAXArO8Cfdun3Drg/Or+hDlk1Brl+mU/2UvfExuAskJKic3Ig69GUWMNXkTjvKh70wygvBh67w3siVjHbeYHqDBLaaMIyl8v5GPZK2zqKMCs/Ia83Eqi+Xnk1e8DqSvELQ3aoNmbE1CzG8hxiw9dWwLIaMknwrdp7j7+WxjPK+f12O2XdlK68l+M1Bi7PvZnERThXD3iDpU/qUxX/8EQxujfZwLJe5XTJ2uxU/dTYoLPM7vCFtS10RaNptQN1fyDtsbg/n7YxljQSMvZZABL1PuwkCFyUjuETkNe25g==",
+    "digest": "2jmj7l5rSw0yVb/vlWAYkK/YBwk=",
+    "signature": "d+qJSxXu1XbBRLgWB0zrvPCd+Lw3En3LIu1aVre700OCcOsfjaHeChWqtkzoNJmuHKH1R4A7jUsF4AhWEieTbS0NSt16GRsktrDa5bjFCTOf6jxRcwDL302Iow2ydpIRrh8qwenFOXfXBgTX4xa6uzbg+naE5iVl6hg9af5JQM+fDl6UInX+OhxTOzpK/6awyU9v+dPzBnz/wAOyxdOaF1sbdUVRQrud6SlmEcQ31i6RfbnSx9twE6csBQsRtATdzoE6oljEIjzxTHnZYBhHISz++oX1qlp2/3SPzEWBqEPAjPqVENF1BQ72sQhGGdB6EeaPVVSXUeRKPyve91qEpQ=="
+  },
+  "updateCenterVersion": "1"
+}
+);
